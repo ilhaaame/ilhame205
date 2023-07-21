@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <title>FreeCodeCamp Survey Form</title>
+    <meta charset="UTF">
+    <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform</p>
+    <fieldset>
+      <form id="survey-form">
+        <div class="named">
+          <label for="name" id="name-label">Name</label><input class="inname"
+          type='text' id="name" placeholder="Enter your name" required>
+
+        </div>
+        <div class="email">
+          <label for="'email" id="email-label">Email</label>
+          <input type="Email" id="email" placeholder="Enter your Email" class="inemail" required>
+        </div>
+        <div clas="age">
+          <label for="age" id="number-label">Age (optional)</label>
+          <input class="inage" type='number' min="10" max="99" placeholder="Age"
+          id="number">
+        </div>
+        <div class="role">
+          <p id="role">Which option best describes your current role?</p>
+          <select name="role" id="dropdown" class="inrole" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="full">Full time job</option>
+            <option value="learner">Full time learner</option>
+            <option value="prefernot">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div >
+          <p>Would you recommend freeCodeCamp to a friend</p>
+          <label><input type='radio' id='define' value='definitely' checked>definitely</label>
+          <label for="may" ><input type='radio' id='may' 
+          value='maybe'>Maybe</label>
+          <label for="not"><input type='radio' id='not' value='not-sure'>Not sure</label>
+        </div>
+        <div>
+          <p>What's your favorite feature of freeCodeCamp ?</p>
+          <select class="feature" id="most-like" name="mostlike" required>
+            <option disabled selected value>Select an option</option>
+            <option value="Challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="opensource">Open Source</option>
+          </select>
+        </div>
+        <div>
+          <p>What would you like to see improved? (check all that apply) ?</p>
+          <label><input type='checkbox' value='front' name='prefer'> Front-end Projects</label>
+          <label><input type='checkbox' value='back'name='prefer' > Back-end Projects</label>
+          <label><input type='checkbox' value='data' name='prefer' > Data Visualization</label>
+          <label><input type='checkbox' value='challenges'name='prefer' > Challenges</label>
+          <label><input type='checkbox' value='opensource'name='prefer' > Open Source Community</label>
+          <label><input type='checkbox' value='citter' name='prefer'> Citter help rooms </label>
+          <label><input type='checkbox' value='video' name='prefer'> Videos</label>
+          <label><input type='checkbox' value='city'name='prefer' > City Meetups</label>
+          <label><input type='checkbox' value='wiki'name='prefer' > Wiki</label>
+          <label><input type='checkbox' value='forum' name='prefer'> Forum</label>
+          <label><input type='checkbox' value='addition' name='prefer'> Additional Courses</label>
+        </div>
+        <div>
+          <p> Any comments or suggestions?</p>
+          <textarea id="comments" class="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <button type="submit" class="sub" id="submit">Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

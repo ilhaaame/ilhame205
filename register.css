@@ -1,0 +1,108 @@
+body{
+  background-image:url(	https://i.pinimg.com/564x/0d/e7/ec/0de7ecf5d9968ff562eb450470075dca.jpg);
+  font-weight:150px;
+  font-family:Poppins, sans-serif;
+  width:70%;padding-left:200px;
+  vertical-align:middle;
+  
+}
+.inname{width:100%;
+height:38px;}
+.inage{
+  width:100%;
+  height:38px;
+  margin-left:6px;
+}
+#role{
+  text-align:left;
+}
+#name-label{
+  
+  text-align:left;
+}
+.inemail{width:100%;height:38px;}
+.named{padding-bottom:20px;
+  padding-top:20px;
+  margin-left:10px;
+}
+#description{
+  text-align: center;
+}
+.desc{
+  font-size:20px;
+  font-style:italic;
+  text-align:center;
+}
+
+
+label{ font-family:Poppins, sans-serif;
+  color:white;
+  display:block;
+  font-size:20px;
+  margin-bottom:8px;
+
+}
+label{
+  text-align: left;
+}
+p{margin-left:8px;
+  color:white;
+  font-size:20px;
+  font-style:Poppins, sans-serif;
+  text-align:left;
+}
+.feature{width:100%;height:38px;
+margin-left:6px;
+
+}
+
+.role{padding-bottom:20px;
+  padding-top:10px;
+  margin-left:0;
+
+}
+.inrole{width:100%;height:38px;
+margin-left:6px;
+
+}
+.comment{width:98%;height:100px;
+padding: 0.625rem;
+
+}
+.sub{
+
+  width: 100%;
+  height:38px;
+  margin-top:20px;
+  
+  font-size:18px;
+  background-color:rgb(2,170,38);
+  color:white;
+  font-style:Poppins, sans-serif;
+  border:none;
+}
+::placeholder {
+  text-align: left; 
+}
+h1{ color:white;
+font-size:38;
+text-align:center;
+}
+.email{
+margin-top:10px;
+padding-left:8px;
+text-align:left;
+margin-bottom:30px;
+}
+
+#number-label{
+  text-align: left;
+  margin-left:6px;
+}
+fieldset{
+margin:0;
+border-color:rgb(25,29,66);
+background-color:rgb(25,29,66);
+text-align:center;
+width: 100%;
+}
